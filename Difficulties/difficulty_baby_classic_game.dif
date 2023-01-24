@@ -1,5 +1,5 @@
 {
-    "name":"official_bb",
+    "name": "difficulty",
     "generator":
     {
         "width":43,
@@ -11,6 +11,7 @@
     "player":
     {
         "velocity":100,
+        "fov":5,
         "descontrol":
         {
             "velocityVariationDescontrol":1.5,
