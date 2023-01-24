@@ -1,0 +1,22 @@
+{
+  "generator": {
+    "width": 43,
+    "height": 30,
+    "floorProbability": 85.0,
+    "blockProbability": 10.0,
+    "slimeBlockProbability": 5.0
+  },
+  "player": {
+    "velocity": 70.5,
+    "fov":3.5,
+    "descontrol": {
+      "velocityVariationDescontrol": 3.5,
+      "descontrolTime": 10.0,
+      "fovVariation": 2.0
+    }
+  },
+  "spikiki": {
+    "velocity": 220.0,
+    "recoveryTime": 2.0
+  }
+}

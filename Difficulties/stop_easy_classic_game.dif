@@ -1,0 +1,25 @@
+{
+  "name": "stop_easy_classic_game",
+  "generator":
+  
+   {
+    "width": 43,
+    "height": 30,
+    "floorProbability": 94.0,
+    "blockProbability": 5.0,
+    "slimeBlockProbability": 1.0
+  },
+  "player": {
+    "velocity": 90.0,
+    "fov":5.0,
+    "descontrol": {
+      "velocityVariationDescontrol": 2.0,
+      "descontrolTime": 5.0,
+      "fovVariation": 1.5
+    }
+  },
+  "spikiki": {
+    "velocity": 66.6,
+    "recoveryTime": 8.0
+  }
+}
