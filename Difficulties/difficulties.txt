@@ -1,0 +1,5 @@
+-> stop_normal_classic_game
+-> stop_easy_classic_game
+-> stop_baby_classic_game
+-> stop_difficult_classic_game
+-> stop_extreme_classic_game
