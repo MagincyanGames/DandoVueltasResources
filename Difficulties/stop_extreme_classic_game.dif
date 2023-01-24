@@ -1,5 +1,7 @@
 {
-  "generator": {
+  "name": "stop_extreme_classic_game"
+  "generator":
+   {
     "width": 43,
     "height": 30,
     "floorProbability": 85.0,
