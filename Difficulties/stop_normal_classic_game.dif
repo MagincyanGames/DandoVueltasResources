@@ -1,5 +1,4 @@
 {
-  "name": "stop_normal_classic_game",
   "generator": {
     "width": 43,
     "height": 30,
@@ -9,7 +8,7 @@
   },
   "player": {
     "velocity": 100.0,
-    "fov":4.0,
+    "fov": 4.0,
     "descontrol": {
       "velocityVariationDescontrol": 2.5,
       "descontrolTime": 5.0,
@@ -18,6 +17,16 @@
   },
   "spikiki": {
     "velocity": 225.0,
+    "recoveryTime": 7.0
+  },
+  "kisokiki": {
+    "baseSpeed": 125.0,
+    "konoLevelFactor": 1.0
+  },
+  "konocoin": {
+    "multiplicator": 1,
     "recoveryTime": 5.0
-  }
+  },
+  "version": 1,
+  "name": "stop_normal_classic_game"
 }

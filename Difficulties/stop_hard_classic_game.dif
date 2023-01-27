@@ -1,5 +1,4 @@
 {
-  "name": "stop_difficult_classic_game",
   "generator": {
     "width": 43,
     "height": 30,
@@ -13,11 +12,21 @@
     "descontrol": {
       "velocityVariationDescontrol": 3.0,
       "descontrolTime": 8.0,
-      "fovVariation": 1.0
+      "fovVariation": 1.5
     }
   },
   "spikiki": {
     "velocity": 250.0,
     "recoveryTime": 5.0
-  }
+  },
+  "kisokiki": {
+    "baseSpeed": 125.0,
+    "konoLevelFactor": 2.0
+  },
+  "konocoin": {
+    "multiplicator": 1,
+    "recoveryTime": 5.0
+  },
+  "version": 1,
+  "name": "stop_hard_classic_game"
 }
