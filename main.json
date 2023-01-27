@@ -28,7 +28,7 @@
         "width":350,
         "height":200,
         "spriteRute":"UI/button(15x9)Alpha",
-        "command":"s.diff.load.Magic71.stop_baby_classic_game=cg|space.clear|moveto=ClassicGame",
+        "command":"if.<open.exist.\\<difficulties/stop_baby_classic_game.dif\\>>=false|s.diff.load.Magic71.stop_baby_classic_game|if.clear|s.diff.cg=stop_baby_classic_game|space.clear|moveto=ClassicGame",
         "position":
         { 
             "x":1150.0,
@@ -36,7 +36,7 @@
         }
     },
     {
-        "text":"clear",
+        "text":"close",
         "fontRute":"dvFont",
         "alignment":"center",
         "size":30,
@@ -78,7 +78,7 @@
         "width":350,
         "height":200,
         "spriteRute":"UI/button(15x9)Alpha",
-        "command":"s.diff.load.Magic71.stop_easy_classic_game=cg|space.clear|moveto=ClassicGame",
+        "command":"if.<open.exist.\\<difficulties/stop_easy_classic_game.dif\\>>=false|s.diff.load.Magic71.stop_baby_classic_game|if.clear|s.diff.cg=stop_baby_classic_game|space.clear|moveto=ClassicGame",
         "position":
         { 
             "x":1555.0,
@@ -103,7 +103,7 @@
         "width":350,
         "height":200,
         "spriteRute":"UI/button(15x9)Alpha",
-        "command":"s.diff.load.Magic71.stop_difficult_classic_game=cg|space.clear|moveto=ClassicGame",
+        "command":"if.<open.exist.\\<difficulties/stop_hard_classic_game.dif\\>>=false|s.diff.load.Magic71.stop_baby_classic_game|if.clear|s.diff.cg=stop_baby_classic_game|space.clear|moveto=ClassicGame",
         "position":
         { 
             "x":1150.0,
@@ -128,7 +128,7 @@
         "width":350,
         "height":200,
         "spriteRute":"UI/button(15x9)Alpha",
-        "command":"s.diff.load.Magic71.stop_normal_classic_game=cg|space.clear|moveto=ClassicGame",
+        "command":"if.<open.exist.\\<difficulties/stop_normal_classic_game.dif\\>>=false|s.diff.load.Magic71.stop_baby_classic_game|if.clear|s.diff.cg=stop_baby_classic_game|space.clear|moveto=ClassicGame",
         "position":
         { 
             "x":1350.0,
@@ -153,7 +153,7 @@
         "width":350,
         "height":200,
         "spriteRute":"UI/button(15x9)Alpha",
-        "command":"s.diff.load.Magic71.stop_extreme_classic_game=cg|space.clear|moveto=ClassicGame",
+        "command":"if.<open.exist.\\<difficulties/stop_extreme_classic_game.dif\\>>=false|s.diff.load.Magic71.stop_baby_classic_game|if.clear|s.diff.cg=stop_baby_classic_game|space.clear|moveto=ClassicGame",
         "position":
         { 
             "x":1555.0,
