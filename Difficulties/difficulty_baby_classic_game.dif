@@ -1,27 +1,46 @@
 {
-    "name": "official_baby",
-    "generator":
-    {
-        "width":43,
-        "height":30,
-        "floorProbability":94.0,
-        "blockProbability":3.0,
-        "slimeBlockProbability":0.5
-    },
-    "player":
-    {
-        "velocity":100,
-        "fov":5,
-        "descontrol":
-        {
-            "velocityVariationDescontrol":1.5,
-            "descontrolTime":3.0,
-            "fovVariation":1.0
-        }
-    },
-    "spikiki":
-    {
-        "velocity":225.0,
-        "recoveryTime":15.0
+  "version": 2,
+  "name": "official_baby_classic_game",
+  "generator": {
+    "width": 43,
+    "height": 30,
+    "floorProbability": 94.0,
+    "blockProbability": 5.0,
+    "slimeBlockProbability": 1.0
+  },
+  "player": {
+    "velocity": 100.0,
+    "fov": 5.0,
+    "descontrol": {
+      "velocityVariationDescontrol": 1.5,
+      "descontrolTime": 5.0,
+      "fovVariation": 1.0
     }
+  },
+  "spawns": [
+    {
+      "name": "Konocoin",
+      "blockTagException": ["block"],
+      "recoveryTime": 5.0,
+      "count": 0,
+      "Params": null,
+      "Collisions": null
+    },
+    {
+      "name": "Spikiki",
+      "blockTagException": ["block"],
+      "recoveryTime": 15.0,
+      "count": 0,
+      "Params": 
+      {
+        "velocity":"100",
+        "kisokikiBaseSpeed":"120",
+      },
+      "Collisions":
+      {
+        "Player":"game.cg.death"
+
+      }
+    }
+  ]
 }
