@@ -10,10 +10,10 @@
   },
   "player": {
     "velocity": 100.0,
-    "fov": 5.0,
+    "fov": 6.0,
     "descontrol": {
-      "velocityVariationDescontrol": 1.5,
-      "descontrolTime": 5.0,
+      "velocityVariationDescontrol": 1.0,
+      "descontrolTime": 3.0,
       "fovVariation": 1.0
     }
   },
@@ -34,7 +34,21 @@
       "Params": 
       {
         "velocity":"100",
-        "kisokikiBaseSpeed":"120",
+        "kisokikiBaseSpeed":"100",
+      },
+      "Collisions":
+      {
+        "Player":"game.cg.death"
+
+      }
+    },{
+      "name": "Petra",
+      "blockTagException": ["block"],
+      "recoveryTime": 15.0,
+      "count": 0,
+      "Params": 
+      {
+        "velocity":"100",
       },
       "Collisions":
       {
