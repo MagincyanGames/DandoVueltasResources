@@ -27,6 +27,6 @@
     "multiplicator": 1,
     "recoveryTime": 5.0
   },
-  "version": 1,
+  "version": 2,
   "name": "stop_extreme_classic_game",
 }
