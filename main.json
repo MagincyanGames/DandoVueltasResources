@@ -161,7 +161,7 @@
         }
     },
     {
-        "text":"open folder",
+        "text":"update",
         "fontRute":"dvFont",
         "alignment":"center",
         "size":30,
@@ -178,7 +178,7 @@
         "width":155,
         "height":100,
         "spriteRute":"UI/button(15x9)Alpha",
-        "command":"open",
+        "command":"s.diff.load.Magic71.stop_baby_classic_game|s.diff.load.Magic71.stop_easy_classic_game|s.diff.load.Magic71.stop_normal_classic_game|s.diff.load.Magic71.stop_hard_classic_game|s.diff.load.Magic71.stop_extreme_classic_game",
         "position":
         { 
             "x":1625.0,
