@@ -4,9 +4,21 @@
   "generator": {
     "width": 43,
     "height": 30,
-    "floorProbability": 85.0,
-    "blockProbability": 10.0,
-    "slimeBlockProbability": 5.0
+    "blocks":[
+      {
+        "name":"Floor",
+        "probability":85,
+      },
+      {
+        "name":"Block",
+        "probability":10,
+      },
+      {
+        "name":"SlimeBlock",
+        "probability":5,
+      }
+
+    ]
   },
   "player": {
     "velocity": 70.5,
