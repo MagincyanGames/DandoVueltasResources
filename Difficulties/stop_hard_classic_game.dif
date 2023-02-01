@@ -1,4 +1,6 @@
 {
+  "version": 2,
+  "name": "stop_hard_classic_game",
   "generator": {
     "width": 43,
     "height": 30,
@@ -15,18 +17,29 @@
       "fovVariation": 1.5
     }
   },
-  "spikiki": {
-    "velocity": 250.0,
-    "recoveryTime": 5.0
-  },
-  "kisokiki": {
-    "baseSpeed": 125.0,
-    "konoLevelFactor": 2.0
-  },
-  "konocoin": {
-    "multiplicator": 1,
-    "recoveryTime": 5.0
-  },
-  "version": 2,
-  "name": "stop_hard_classic_game"
+  "spawns": [
+    {
+      "name": "Konocoin",
+      "blockTagException": ["block"],
+      "recoveryTime": 5.0,
+      "count": 0,
+      "Params": null,
+      "Collisions": null
+    },
+    {
+      "name": "Spikiki",
+      "blockTagException": ["block"],
+      "recoveryTime": 5.0,
+      "Params": 
+      {
+        "velocity":"225",
+        "kisokikiBaseSpeed":"250",
+      },
+      "Collisions":
+      {
+        "Player":"game.cg.death"
+
+      }
+    }
+  ]
 }
