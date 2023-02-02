@@ -22,7 +22,7 @@
   },
   "player": {
     "velocity": 70.5,
-    "fov":3.5,
+    "fov":2.5,
     "descontrol": {
       "velocityVariationDescontrol": 3.5,
       "descontrolTime": 10.0,
