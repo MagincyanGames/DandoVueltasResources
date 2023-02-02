@@ -26,6 +26,11 @@
       "velocityVariationDescontrol": 3.0,
       "descontrolTime": 8.0,
       "fovVariation": 1.5
+    },
+    "pulse":{
+      "duration":1.5,
+      "recoveryTime":5,
+      "multiplier":1.5,
     }
   },
   "spawns": [
