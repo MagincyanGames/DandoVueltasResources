@@ -28,7 +28,7 @@
         "width":350,
         "height":200,
         "spriteRute":"UI/button(15x9)Alpha",
-        "command":"if.<open.exist.\\<difficulties/stop_baby_classic_game.dif\\>>=false|s.diff.load.Magic71.stop_baby_classic_game|if.clear|s.diff.t=stop_baby_classic_game|space.clear|moveto=ClassicGame",
+        "command":"if.<open.exist.\\<difficulties/stop_baby_classic_game.dif\\>>=false|s.diff.load.Magic71.stop_baby_classic_game|if.clear|s.diff.tg=stop_baby_classic_game|space.clear|moveto=ClassicGame",
         "position":
         { 
             "x":1150.0,
