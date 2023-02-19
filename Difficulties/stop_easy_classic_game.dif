@@ -50,11 +50,7 @@
       {
         "velocity":"66.6",
         "kisokikiBaseSpeed":"70",
-      },
-      "Collisions":
-      {
-        "Player":"game.cg.death"
-
+        "PlayerCollision":"game.tg.death"
       }
     }
   ]
