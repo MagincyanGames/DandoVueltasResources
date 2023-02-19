@@ -50,7 +50,7 @@
       {
         "velocity":"100",
         "kisokikiBaseSpeed":"100",
-        "PlayerCollision":"game.tg.death""
+        "PlayerCollision":"game.tg.death"
       }
     }
   ]
