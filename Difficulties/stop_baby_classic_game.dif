@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "name": "stop_baby_classic_game",
   "generator": {
     "width": 43,
@@ -50,11 +50,7 @@
       {
         "velocity":"100",
         "kisokikiBaseSpeed":"100",
-      },
-      "Collisions":
-      {
-        "Player":"game.cg.death"
-
+        "PlayerCollision":"game.tg.death""
       }
     }
   ]
