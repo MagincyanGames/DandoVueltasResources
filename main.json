@@ -1,5 +1,9 @@
 [
     { 
+        "tag":"load",
+        "command":"add.{stop update}={space.download.Magic71|s.diff.load.Magic71.stop_baby_classic_game|s.diff.load.Magic71.stop_easy_classic_game|s.diff.load.Magic71.stop_normal_classic_game|s.diff.load.Magic71.stop_hard_classic_game|s.diff.load.Magic71.stop_extreme_classic_game|space.clear|space.fromsrc.Magic71}||/stop update"
+    },
+    { 
         "tag":"image",
         "width":891,
         "height":742.5,
@@ -178,7 +182,7 @@
         "width":155,
         "height":100,
         "spriteRute":"UI/button(15x9)Alpha",
-        "command":"s.diff.load.Magic71.stop_baby_classic_game|s.diff.load.Magic71.stop_easy_classic_game|s.diff.load.Magic71.stop_normal_classic_game|s.diff.load.Magic71.stop_hard_classic_game|s.diff.load.Magic71.stop_extreme_classic_game",
+        "command":"space.download.Magic71|s.diff.load.Magic71.stop_baby_classic_game|s.diff.load.Magic71.stop_easy_classic_game|s.diff.load.Magic71.stop_normal_classic_game|s.diff.load.Magic71.stop_hard_classic_game|s.diff.load.Magic71.stop_extreme_classic_game|space.clear|space.fromsrc.Magic71",
         "position":
         { 
             "x":1625.0,
