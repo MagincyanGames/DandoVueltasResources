@@ -1,7 +1,7 @@
 [
     { 
         "tag":"load",
-        "command":"add.{stop update}={space.download.Magic71&s.diff.load.Magic71.stop_baby_classic_game&s.diff.load.Magic71.stop_easy_classic_game&s.diff.load.Magic71.stop_normal_classic_game&s.diff.load.Magic71.stop_hard_classic_game&s.diff.load.Magic71.stop_extreme_classic_game&space.clear&space.fromsrc.Magic71}|add.{stop upgrade}={space.download.Magic71&s.diff.load.Magic71.stop_baby_classic_game&s.diff.load.Magic71.stop_easy_classic_game&s.diff.load.Magic71.stop_normal_classic_game&s.diff.load.Magic71.stop_hard_classic_game&s.diff.load.Magic71.stop_extreme_classic_game}|/stop upgrade"
+        "command":"if.{@stop_exe}=true|if.else|add.{stop update}={space.download.Magic71&s.diff.load.Magic71.stop_baby_classic_game&s.diff.load.Magic71.stop_easy_classic_game&s.diff.load.Magic71.stop_normal_classic_game&s.diff.load.Magic71.stop_hard_classic_game&s.diff.load.Magic71.stop_extreme_classic_game&space.clear&space.fromsrc.Magic71}|add.{stop upgrade}={space.download.Magic71&s.diff.load.Magic71.stop_baby_classic_game&s.diff.load.Magic71.stop_easy_classic_game&s.diff.load.Magic71.stop_normal_classic_game&s.diff.load.Magic71.stop_hard_classic_game&s.diff.load.Magic71.stop_extreme_classic_game}|/stop update|if.clear"
     },
     { 
         "tag":"image",
