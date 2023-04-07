@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "name": "stop_baby_classic_game",
   "generator": {
     "width": 43,
@@ -25,12 +25,19 @@
     "descontrol": {
       "velocityVariationDescontrol": 1.0,
       "descontrolTime": 3.0,
-      "fovVariation": 1.0
+      "fovVariation": 1.5
     },
     "pulse":{
-      "duration":1.5,
-      "recoveryTime":5,
-      "multiplier":1.5,
+      "def": { 
+        "duration":1.5,
+        "recoveryTime":5,
+        "multiplier":1.5,
+      },
+      "cube": { 
+        "duration":1.5,
+        "recoveryTime":5,
+        "multiplier":1.5,
+      }
     }
   },
   "spawns": [

@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "name": "stop_normal_classic_game",
   "generator": {
     "width": 43,
@@ -28,9 +28,16 @@
       "fovVariation": 2.0
     },
     "pulse":{
-      "duration":1.5,
-      "recoveryTime":5,
-      "multiplier":1.5,
+      "def": { 
+        "duration":1.5,
+        "recoveryTime":5,
+        "multiplier":1.5,
+      },
+      "cube": { 
+        "duration":1.5,
+        "recoveryTime":5,
+        "multiplier":1.5,
+      }
     }
   },
   "spawns": [
