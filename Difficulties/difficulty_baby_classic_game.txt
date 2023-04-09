@@ -1,0 +1,60 @@
+{
+  "version": 5,
+  "name": "official_baby_classic_game",
+  "generator": {
+    "width": 43,
+    "height": 30,
+    "blocks": [
+      {
+        "name": "Floor",
+        "probability": 94
+      },
+      {
+        "name": "Block",
+        "probability": 5
+      },
+      {
+        "name": "SlimeBlock",
+        "probability": 1
+      }
+    ]
+  },
+  "player": {
+    "velocity": 100.0,
+    "fov": 6.0,
+    "descontrol": {
+      "velocityVariationDescontrol": 1.0,
+      "descontrolTime": 3.0,
+      "fovVariation": 1.0
+    },
+    "pulse":{
+        "def": {
+          "duration":1.5,
+          "recoveryTime":5,
+          "multiplier":1.5,
+        }
+      
+    }
+  },
+  "spawns": [
+    {
+      "name": "Konocoin",
+      "blockTagException": ["block"],
+      "recoveryTime": 5.0,
+      "count": 0,
+      "Params": null,
+      "Collisions": null
+    },
+    {
+      "name": "Spikiki",
+      "blockTagException": ["block"],
+      "recoveryTime": 15.0,
+      "Params": 
+      {
+        "velocity":"100",
+        "kisokikiBaseSpeed":"100",
+        "PlayerCollision":"game.tg.death"
+      }
+    }
+  ]
+}
