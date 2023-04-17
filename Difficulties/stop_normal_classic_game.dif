@@ -1,6 +1,7 @@
 {
-  "version": 5,
+  "version": 6,
   "name": "stop_normal_classic_game",
+  "types": [0,1],
   "generator": {
     "width": 43,
     "height": 30,
